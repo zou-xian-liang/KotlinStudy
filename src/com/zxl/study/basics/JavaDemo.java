@@ -10,6 +10,7 @@ public class JavaDemo {
         //AnnotationDemoKt对应AnnotationDemoKt文件
         // 可以在该文件中使用@JvmName注解修改该文件的名称，这样在java中调用的时候就可以使用别的名称
         Annotation.print("测试java调用Kotlin中的顶层函数");
+
         MyAnnotation myAnnotation = new MyAnnotation();
         myAnnotation.testField = "dsd ";
         String tag = MyAnnotation.getTAG();
