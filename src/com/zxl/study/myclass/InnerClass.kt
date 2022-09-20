@@ -7,7 +7,7 @@ class InnerClass {
      * 1、如果一个类只对另一个类有用，那么就可以将其嵌入到该类中，并使这两个类保持在一起是合乎逻辑的，此时
      * 就可以使用嵌套类
      */
-   class SonClass{
+    class SonClass{
         fun sonFun(){
             println("sonFun")
         }

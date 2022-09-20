@@ -1,5 +1,7 @@
 package com.zxl.study.basics
 
+import com.zxl.study.Te
+
 /**
  * 函数式编程
  * 由抽象数学的λ演算发展而来
@@ -10,5 +12,4 @@ package com.zxl.study.basics
 
 
 class FunProgram {
-
 }
